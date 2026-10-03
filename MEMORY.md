@@ -20,7 +20,7 @@ Wayfinder, setup-matt-pocock-skills, grilling, and domain-modeling were installe
 
 ## Next step
 
-Resume with the [five opening questions](docs/planning/open-questions.md): the planning destination, the meaning of open, initial users and use case, monetary guarantees, and the predecessor failures that matter most. The assistant's recommendations in that document remain proposals.
+Resume with the [Wayfinder handoff and five opening questions](docs/planning/open-questions.md): the planning destination, the meaning of open, initial users and use case, monetary guarantees, and the predecessor failures that matter most. `AGENTS.md` directs future sessions to this checkpoint, including on another machine. The assistant's recommendations in that document remain proposals.
 
 After those answers, continue the discussion across the major open areas, then create the Wayfinder map and child issues. Research should answer factual questions; the user makes product decisions.
 

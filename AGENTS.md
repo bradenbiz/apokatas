@@ -4,6 +4,14 @@
 
 Read `MEMORY.md` before continuing the project. Follow its links to the brief, unanswered questions, research, and history as relevant. These files preserve context from the initial planning conversation.
 
+## Resume Wayfinder here
+
+When the user invokes Wayfinder or asks to resume planning, open [the saved Wayfinder handoff and unanswered questions](docs/planning/open-questions.md) first. That file is the canonical checkpoint for the unfinished opening interview, including when continuing on another machine without the original chat.
+
+The resume point is **Chart the map → Name the destination**. Read the handoff, `MEMORY.md`, and `docs/project-brief.md`, then continue the pending questions with the user. Do not restart intake, assume the proposed answers were accepted, or create a map with an invented destination.
+
+Check that the Wayfinder, grilling, and domain-modeling skills are available in the current environment; the prior machine's installations do not travel with this repository. Use `docs/agents/issue-tracker.md` for the established GitHub tracker configuration.
+
 ## Preserve the status of information
 
 - Distinguish user-stated intentions, candidate features, assistant recommendations, sourced findings, and unverified leads.

@@ -32,3 +32,10 @@ This is a summary of the project conversation and material actions, not a verbat
 - Added the current memory, brief, unanswered questions, dated research, provider leads, and this history, linked from the README.
 - Added instructions for future sessions and documented GitHub as the issue tracker. This configuration does not create or approve a Wayfinder map.
 - The remaining user input is the opening set of five questions. No proposed monetary guarantees, pilot design, or provider choice has been promoted to an accepted decision.
+
+## 2026-10-02 — Wayfinder handoff for another machine
+
+- The user requested a discoverable checkpoint so Wayfinder could resume the unanswered questions later on another machine.
+- Added an explicit resume instruction near the top of `AGENTS.md`, pointing directly to [the saved handoff and questions](planning/open-questions.md).
+- The handoff identifies the exact planning stage, links the context required without the original chat, includes a suggested resume message, and explains that local skill installations must also be available on the new machine.
+- All five questions remain unanswered; no planning decisions or GitHub map were created as part of this handoff.

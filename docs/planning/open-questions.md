@@ -2,6 +2,22 @@
 
 Status on 2026-10-02: all five questions remain unanswered. Recommendations below were supplied by the assistant and are not user decisions.
 
+## Wayfinder handoff
+
+This is the canonical checkpoint for resuming the opening interview on another machine. The original chat is not required.
+
+**Resume point:** Wayfinder's **Chart the map → Name the destination** step. The initial idea has already been supplied; the first round of questions is awaiting the user's answers. No map or child decision issues have been created.
+
+Before continuing, read the [current memory](../../MEMORY.md), [project brief](../project-brief.md), and [GitHub tracker conventions](../agents/issue-tracker.md). The brief preserves all ten feature ideas; the memory links to predecessor research and unverified provider leads. Use those records as context instead of asking the user to repeat the initial idea.
+
+Load the Wayfinder skill and its grilling and domain-modeling support skills in the new environment. They were installed on the original machine, but are not bundled with the repository. If missing, obtain them from [Matt Pocock's official skills repository](https://github.com/mattpocock/skills) before continuing the skill workflow.
+
+Suggested resume message after cloning or pulling this repository:
+
+> Use Wayfinder to continue from docs/planning/open-questions.md. Read the saved context and resume the unanswered opening questions.
+
+As the user answers, replace each pending answer with their actual response, distinguish remaining uncertainty, and update the memory and history. Once the destination is agreed, continue Wayfinder's discussion across the major open areas before creating the GitHub map and its child issues. The recommendations below are starting points for discussion, not approved requirements.
+
 ## 1. Planning destination
 
 **Question:** Should this effort produce a concrete design for an Apokatas pilot the user intends to launch, or an open monetary-system specification that others could implement?
