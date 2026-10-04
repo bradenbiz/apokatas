@@ -1,6 +1,6 @@
 # Preliminary predecessor research
 
-These findings were gathered from primary sources on 2026-09-12 during preparation for the opening Wayfinder discussion. They are preserved here on 2026-10-02 without a fresh check of product terms or availability. Revalidate current claims before relying on them for a design or provider decision.
+These findings were gathered from primary sources on 2026-09-12 during preparation for the opening Wayfinder discussion. They are preserved here on 2026-10-02 without a fresh check of product terms or availability. Revalidate current claims before relying on them for a design or provider decision. A separate, narrowly scoped follow-up is recorded below; it does not refresh all earlier product terms.
 
 ## E-gold
 
@@ -41,3 +41,11 @@ Sources: [SchiffGold interview](https://www.schiffgold.com/interviews/schiff-on-
 ## Coverage limits
 
 Goldmoney was named as an inspiration but was not examined in this preliminary pass. No complete competitor comparison, legal feasibility analysis, provider assessment, or recommendation has been completed.
+
+## 2026-10-02 — Rationale follow-up
+
+The user added delayed delivery, scope complexity and dependence on a single organization to the project motivation. Anonymized findings are in [roadmap and delivery lessons](roadmap-delivery-lessons.md).
+
+A fresh check of [Goldmoney's public site](https://www.goldmoney.com/) found an advertised account service for buying, holding and selling metal using specialist vault operators. Other platforms the user has criticized also publicly name external vaulting and audit partners. These are published descriptions, not operational tests or an API/provider assessment. They are enough to qualify blanket claims that every predecessor has ceased operating or performs every service itself.
+
+Failure to achieve the user's everyday-money ambition is a different hypothesis from business closure, insolvency, poor adoption or missed deadlines. The evidence here does not establish that all competitors have failed or that any particular platform is headed toward failure. Goldmoney's full historical trajectory and discontinued payment features remain unexamined in this project.

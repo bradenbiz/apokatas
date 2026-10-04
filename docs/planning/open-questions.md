@@ -1,12 +1,12 @@
 # Opening Wayfinder questions
 
-Status on 2026-10-02: all five questions remain unanswered. Recommendations below were supplied by the assistant and are not user decisions.
+Status on 2026-10-02: questions 2 and 5 have partial user answers from the project-rationale discussion. Questions 1, 3 and 4 remain unanswered. Recommendations below remain assistant proposals unless explicitly identified as user statements.
 
 ## Wayfinder handoff
 
 This is the canonical checkpoint for resuming the opening interview on another machine. The original chat is not required.
 
-**Resume point:** Wayfinder's **Chart the map → Name the destination** step. The initial idea has already been supplied; the first round of questions is awaiting the user's answers. No map or child decision issues have been created.
+**Resume point:** Wayfinder's **Chart the map → Name the destination** step. The initial idea has already been supplied; the first round has partial answers on openness and predecessor problems, while the destination, initial users and monetary guarantees remain pending. No map or child decision issues have been created.
 
 Before continuing, read the [current memory](../../MEMORY.md), [project brief](../project-brief.md), and [GitHub tracker conventions](../agents/issue-tracker.md). The brief preserves all ten feature ideas; the memory links to predecessor research and unverified provider leads. Use those records as context instead of asking the user to repeat the initial idea.
 
@@ -32,7 +32,9 @@ As the user answers, replace each pending answer with their actual response, dis
 
 **Proposed answer:** Start with open-source software, documented interfaces, and explicit ways to replace providers. Leave the number of operators, participation rules, and blockchain choice open until the intended guarantees are understood.
 
-**User answer:** Pending.
+**User answer (partial, 2026-10-02):** As open source and distributed as practical, with many people able to code, host and operate different parts. Favor replaceable external services; Apokatas need not own vaults. Explore custody/tokenization APIs and broad provider compatibility. User-facing provider choice remains a possibility, not a requirement.
+
+**Still open:** license, governance and contribution authority; who can operate which components; participation rules; and whether replacing providers is an operator capability, an end-user capability or both. See [rationale](../rationale.md).
 
 ## 3. First users and primary activity
 
@@ -58,7 +60,15 @@ This is a proposed product requirement, not a finding that any legal or operatio
 
 **Proposed answer:** Prioritize the failures before ranking features. Initial candidates are usable physical redemption, credible verification of backing and customer claims, and continuity when a provider fails.
 
-**User answer:** Pending.
+**User answer (partial, 2026-10-02):** Repeated delivery delays at an existing platform, the difficulty of keeping track of a broad offering, and dependence on one company attempting to coordinate many pieces motivate a focus on the core offering and distributed, replaceable services. The user suspects excessive scope contributes to failure risk.
+
+**Additional user answer (2026-10-02):** The user regards the still-unresolved economic purpose of retail-spending subsidies as another warning sign. They suspect that adding yields without tangible customer benefits distracts from the core monetary service, and they report dissatisfaction with how an existing platform carried out its expansion. They want to know who pays, who benefits, and what measurable value funds an incentive. Their public question about this received only partial answers; that platform's internal analysis, rollout status and profitability remain unestablished. The [incentive design lessons](../research/incentive-design-lessons.md) preserve the arguments, proposals and limits. No yield/reward model for Apokatas was approved.
+
+**Additional context (2026-10-04):** a deposit/withdrawal disruption at an existing platform added concerns about banking redundancy, protection of customer cash and crisis communication. See [operational lessons](../research/operational-lessons.md).
+
+**Evidence boundary:** the delivery study does not establish causation or predict business failure, and the platform studied itself uses outside partners. The user's earlier views also recognized regulatory and negotiating constraints. See [roadmap and delivery lessons](../research/roadmap-delivery-lessons.md).
+
+**Still open:** which two or three shortcomings are unacceptable for Apokatas and the measurable acceptance criteria for the first user journey. The user's earlier benchmark for an existing platform's MVP does not automatically become an Apokatas commitment.
 
 ## Resuming the discussion
 

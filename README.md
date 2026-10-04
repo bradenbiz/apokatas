@@ -6,10 +6,14 @@ The project is in early discovery. The product, monetary guarantees, operating s
 
 ## Project records
 
+- [Why Apokatas: motivation, evidence and intended direction](docs/rationale.md)
 - [Current memory and next steps](MEMORY.md)
 - [Project idea and candidate features](docs/project-brief.md)
-- [Opening Wayfinder questions awaiting answers](docs/planning/open-questions.md)
+- [Open Wayfinder questions and partial answers](docs/planning/open-questions.md)
 - [Preliminary predecessor research](docs/research/predecessors.md)
+- [Roadmap and delivery lessons](docs/research/roadmap-delivery-lessons.md)
+- [Incentive design lessons](docs/research/incentive-design-lessons.md)
+- [Operational lessons from platform disruptions](docs/research/operational-lessons.md)
 - [Unverified provider leads](docs/research/provider-leads.md)
 - [Conversation and project history](docs/history.md)
 
