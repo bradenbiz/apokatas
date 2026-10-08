@@ -1,6 +1,6 @@
 # Apokatas current memory
 
-Last updated: 2026-10-04.
+Last updated: 2026-10-08.
 
 ## Established context
 
@@ -10,6 +10,7 @@ Last updated: 2026-10-04.
 - Openness should enable multiple contributors, independent hosting and different operators running components. User-facing provider choice is still a candidate option. License, governance and operator permissions are unresolved.
 - Delivery delays, breadth/complexity and dependence on one organization motivate the project. The hypothesis that scope causes delays or predicts failure is not established by the research.
 - The user also sees unclear incentive economics and the unresolved purpose of subsidizing retail spending as reasons for Apokatas. They want tangible, comparable benefits and an explicit explanation of funding and value creation before adding yields. No Apokatas reward or yield model has been selected.
+- On 2026-10-08 the user generalized the incentive concern: as platforms grow more complex, incentive structures (fee-sharing tokens, trading income, pooled rewards) give them parties to serve other than ordinary users. Is each mechanism a user benefit or income, and for whom? Recorded in the [rationale](docs/rationale.md#who-the-service-ends-up-serving) as an argument and proposals, not a decision.
 - Public docs describe other platforms' failures generically ("some platforms have struggled with…") and do not name them. Neutral, sourced facts about competitors may stay named. Specifics live only in the local `private/` folder.
 - The user chose Wayfinder to explore the idea and expects the resulting map and decision issues to live on GitHub.
 - The user wants project memory, history, and code changes preserved in the repository and pushed to GitHub.

@@ -48,6 +48,7 @@ These are proposals for later Wayfinder discussion, not decisions.
    - Give the same information to everyone at the same time.
    - Name an accountable spokesperson.
    - Give updates on a schedule even when nothing has changed.
+   - If legal or investigative constraints limit what can be said, say publicly that they exist and share what can be said, such as which services are affected and when the next update is due.
    - Publish a post-mortem afterwards.
 9. **Token security and taint rules published in advance.**
    - Secure the keys used to issue tokens and any cross-chain bridges.

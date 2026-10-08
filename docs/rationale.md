@@ -11,6 +11,7 @@ The user sees existing gold-money attempts as having fallen short of that wider 
 - changing programmes
 - incentives whose economics are never explained
 - an offering too broad to deliver reliably
+- incentive structures that pull a company toward serving parties other than its ordinary users
 
 The user suspects that coordinating too many components within one company makes it difficult to maintain focus, communicate clearly and address operational problems.
 
@@ -62,6 +63,29 @@ In their view, adding yields can look attractive while distracting from the core
 
 **Status:** user assessment and motivation. The assistant's recommendation is to test any Apokatas incentive against a concrete customer benefit and a complete cash-flow model before treating it as a feature. Details, examples, analytical corrections and the user's alternative proposals are in the [incentive design lessons](research/incentive-design-lessons.md). The user has not approved a rewards programme, lending/pledging structure, token allocation or pilot scope.
 
+## Who the service ends up serving
+
+Recorded 2026-10-08. **Status: the user's argument plus an assistant framing; not a design decision.**
+
+The user's broader concern is about incentive structures as a platform grows more complicated. Fee-sharing tokens, pooled rewards, trading operations, yield programmes and partner tiers each give some group a financial stake in how the platform treats its users. The company then has reasons to serve those groups, and their interests can diverge from those of the ordinary savers and spenders it originally set out to serve. The user's examples:
+- holders of a fee-sharing token, who gain when users pay more in fees
+- the operator's own trading activity, which may gain from user volume or balances
+
+These are the user's impressions of how such structures can pull, not established findings about any platform.
+
+The user sees this as the same question they asked publicly about a pooled spending reward: is it a cost the platform pays to give users a benefit, or a source of income, and if so, whose? When a mechanism's purpose can't be stated that plainly, it is unclear whom the system is serving. In 2026, a member of one platform's community wondered aloud whether ordinary users were really the intended customers, after leadership updates reached a small group but not the wider customer base. Silence can have other causes, such as legal limits on public comment, so behaviour alone does not settle the reason.
+
+**Assistant framing (proposal).** Whom an organisation serves can be judged from observable signals rather than stated intentions:
+- whose income depends on each revenue stream, and what they need in order to keep receiving it
+- which work is finished first and which is left waiting
+- who is told what, and when
+
+**Implications to consider (not decisions):**
+- Name the primary beneficiary of the monetary service. Any other party's claim on revenue that users generate must be justified to the users who pay it.
+- Treat each new mechanism as adding a constituency, not only a feature. Complexity creates conflicting interests as well as delivery work.
+- Keep custody separate from operator revenue, so an operator cannot earn from what it holds for users.
+- Users' ability to leave or switch operators, one possible result of openness, could check this drift. Openness does not remove it: contributors, operators and funders have interests too, so their incentives also need stating.
+
 ## Questions and recommendations arising from this rationale
 
 The following are assistant-proposed checks, not product decisions:
@@ -74,5 +98,6 @@ The following are assistant-proposed checks, not product decisions:
 6. Publish clear milestone stages and revision histories. Distinguish an idea, plan, estimate, pilot, generally available service, withdrawal and replacement; include geography and eligibility.
 7. Keep software uptime separate from completed withdrawals, settlement and redemption. A responsive interface does not establish that money can move.
 8. Establish the economic purpose of each proposed yield or spending incentive. Who benefits, who funds it, and what measurable incremental value makes it sustainable? Distinguish a gross pool contribution from profit, and a customer reward from a known net return.
+9. Map every revenue stream and incentive to who pays, who receives and what the recipient needs in order to keep receiving it. Check whether each one pulls the operator toward the ordinary user or away from them.
 
 The remaining product choices are tracked in [open questions](planning/open-questions.md). The planning destination, initial users and monetary guarantees remain unresolved.

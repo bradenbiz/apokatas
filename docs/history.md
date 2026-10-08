@@ -74,3 +74,9 @@ This is a summary of the project conversation and material actions, not a verbat
 - Moved the platform-specific delivery study and dataset, the user's forum-post notes and the pre-anonymization records to the local `private/` folder.
 - Replaced the three most recent commits with a single anonymized commit and force-pushed, so the user's forum identity, token holdings and the named research no longer appear in the public history. A backup bundle of the earlier history is kept privately.
 
+## 2026-10-08 — Who the service ends up serving
+
+- The user agreed with a community member's remark that a platform's leadership seemed disengaged from ordinary customers, as if they weren't the intended customer base. They identified a broader principle: as a platform grows more complicated, its incentive structures (fee-sharing tokens, trading income, pooled rewards) give it other parties to serve besides the retail users it set out to serve. The user tied this to their earlier public question of whether a pooled spending reward is a user benefit or a source of income, and for whom.
+- Added a [rationale section](rationale.md#who-the-service-ends-up-serving) and a related check. Added a matching failure mode, an avoid item and an extension of the economic-purpose test to the [incentive design lessons](research/incentive-design-lessons.md). Added communicating legal constraints publicly to the incident-communication consideration in the [operational lessons](research/operational-lessons.md). All of these are user arguments or proposals, not decisions.
+- The thread came from a restricted forum section that includes information shared in confidence, so its specifics are kept only in the private folder.
+
