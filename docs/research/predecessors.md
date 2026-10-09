@@ -38,6 +38,10 @@ These sources did not establish that token issuance had launched. Identity and c
 
 Sources: [SchiffGold interview](https://www.schiffgold.com/interviews/schiff-on-coinage-gold-is-heading-to-7000), [SchiffGold Trade page](https://www.schiffgold.com/services/start-trading).
 
+## OneGold
+
+Researched 2026-10-09; details and sources are in [OneGold](onegold.md). OneGold (APMEX's vaulted-metal account, launched in 2018) added a Mastercard debit card around mid-2026. The card spends gold, silver or platinum by selling just enough at each purchase. It is issued by Cross River Bank and is US-only. OneGold offers no yield, token or transfers between users. It charges storage, and its main cost is an undisclosed spread between its own buying and selling "spot" prices. Its user agreement describes pooled, allocated holdings treated as a UCC Article 8 financial asset, with a "buyer-seller" relationship; its marketing describes metal held "under your name".
+
 ## Coverage limits
 
 Goldmoney was named as an inspiration but was not examined in this preliminary pass. No complete competitor comparison, legal feasibility analysis, provider assessment, or recommendation has been completed.

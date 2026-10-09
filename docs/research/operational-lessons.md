@@ -1,6 +1,6 @@
 # Operational lessons from platform disruptions
 
-Recorded 2026-10-04. **Status: assistant-synthesized lessons and candidate design considerations, not accepted requirements.** They come from customer reports and operator statements the user observed about an existing metal-backed money platform during a deposit/withdrawal disruption in August–October 2026. Most of the underlying reports come from customers, not audits, and the operator's root cause has not been publicly confirmed. Platforms are deliberately not named here. The user decides which considerations become Apokatas requirements.
+Recorded 2026-10-04; updated 2026-10-09. **Status: assistant-synthesized lessons and candidate design considerations, not accepted requirements.** They come from customer reports and operator statements the user observed about an existing metal-backed money platform during a deposit/withdrawal disruption in August–October 2026. Most of the underlying reports come from customers, not audits, and the operator's root cause has not been publicly confirmed. Platforms are deliberately not named here. The user decides which considerations become Apokatas requirements.
 
 ## What went wrong, in general terms
 
@@ -18,6 +18,17 @@ Recorded 2026-10-04. **Status: assistant-synthesized lessons and candidate desig
 - **Expanding scope before the core was reliable.** New product lines and yield programs had been announced while basic functions were still incomplete. When the core broke, the expansion was put on hold, and community members said that "nothing else matters" until withdrawals work.
 - **Yields depend on the platform's health.** Yield payments were delayed. A pledge or earn program becomes hard to sell when customers doubt they can get their money out.
 
+## Update, 2026-10-09
+
+Public customer reports checked on 2026-10-09 showed the disruption still unresolved more than two months in:
+
+- **Partial payouts.** Some customers reported receiving a few percent of a requested withdrawal, then waiting weeks for the rest. Others reported waits of one to two months. Crypto withdrawals were also reported delayed for days or weeks.
+- **Complaining to regulators as a way to get paid.** Several customers said they had complained to regulators in different jurisdictions, and some reported funds released soon after. Whether or not it was cause and effect, customers came to believe that complaining jumped the queue.
+- **Green status pages during a payout failure.** Website-uptime monitors showed more than 99.9% availability throughout. They measured whether pages loaded, not whether money moved.
+- **Disclosure lapsed when it mattered most.** The latest published reserve attestation for the platform's fiat-backed token covered a month more than half a year earlier.
+- **Documentation contradicting experience.** Help pages still said there were no withdrawal limits while customers reported partial releases. One help article listed a card fee that the fee page said didn't exist.
+- **Individual replies instead of a statement.** The operator answered complaints one by one on review sites, acknowledging delays, but published no company-wide statement.
+
 ## Things to avoid
 
 - A single bank, payment provider, or jurisdiction that every fiat payout must pass through.
@@ -25,6 +36,9 @@ Recorded 2026-10-04. **Status: assistant-synthesized lessons and candidate desig
 - Payout paths through jurisdictions where large outbound transfers need case-by-case approval.
 - Keeping customer value as fiat on the platform longer than necessary after a metal sale.
 - Giving individual customers compliance explanations for what is really a systemic problem.
+- Letting complaints, regulator escalations or personal connections move a customer up the withdrawal queue.
+- Status pages that report website uptime as if it were service health.
+- Help pages, fee pages and contracts that disagree with each other.
 - Promising deadlines that depend on third parties the operator does not control.
 - Giving private updates to insiders, or letting partial explanations reach selected groups first, while affected customers wait.
 - Issuing tokens on more chains and exchanges before freezing, recovery, and reissue rules are published.
@@ -38,11 +52,11 @@ These are proposals for later Wayfinder discussion, not decisions.
 
 1. **Redundant fiat channels.** Use at least two independent banking or payment paths in different institutions, and in more than one jurisdiction where practical. Each should be able to handle normal peak withdrawals alone. Test the fallbacks regularly with real traffic.
 2. **Know the whole banking chain.** Record every provider and bank involved in each settlement path. Require contractual notice of holds. Monitor how long settlements take on each path so a silent hold is detected within hours.
-3. **Make an operator's withdrawal performance a measured, public commitment.** Publish target times by amount and currency and the actual results. Run withdrawal queues first-in, first-out under a published policy.
+3. **Make an operator's withdrawal performance a measured, public commitment.** Publish target times by amount and currency and the actual results. Run withdrawal queues first-in, first-out under a published policy, so escalation doesn't change a customer's place. Report deposit, withdrawal and redemption completion on the status page alongside website uptime.
 4. **A cash buffer for emergencies.** Operators should hold their own liquidity, separate from customer money, so they can bridge a temporary channel failure without improvising financing.
 5. **Make every change of claim explicit.** At the moment of sale, tell the customer what they now hold (metal, a fiat claim, a stablecoin) and who protects it. Prefer settling directly to the customer's own bank or wallet over holding a platform balance.
 6. **Several ways out.** Document a physical-redemption or in-kind transfer route with its costs and timing, so a fiat-channel failure is not the only exit.
-7. **Continuous disclosure of custody.** Publish custodian and bailee identities, auditors, and attestations as standing information, so customers do not have to demand them during a crisis.
+7. **Continuous disclosure of custody.** Publish custodian and bailee identities, auditors, and attestations as standing information, so customers do not have to demand them during a crisis. Keep attestations on a fixed schedule and announce any delay publicly.
 8. **An incident communication policy.**
    - Run a public status page.
    - Give the same information to everyone at the same time.
@@ -60,6 +74,6 @@ These are proposals for later Wayfinder discussion, not decisions.
 
 ## Limits
 
-- These lessons rely on customer and operator statements made during an incident that had not been resolved as of 2026-10-04.
+- These lessons rely on customer and operator statements made during an incident that had not been resolved as of 2026-10-04. Public customer reports still described it as unresolved on 2026-10-09.
 - They do not establish the platform's solvency, the cause of the disruption, or whether the operator's stated fix succeeded.
 - They are failure modes worth designing against, not findings about any company.

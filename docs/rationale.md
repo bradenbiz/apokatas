@@ -49,7 +49,7 @@ The user's earlier views also inform these lessons:
 
 ## A fair comparison
 
-Existing services do not all perform every function themselves. For example, [Goldmoney](https://www.goldmoney.com/) advertises metal purchase, storage and sale through specialist vault operators. Other platforms the user has criticized also name outside vaulting and audit partners. These public descriptions were checked on 2026-10-02; they are not operational tests.
+Existing services do not all perform every function themselves. For example, [Goldmoney](https://www.goldmoney.com/) advertises metal purchase, storage and sale through specialist vault operators. Other platforms the user has criticized also name outside vaulting and audit partners. [OneGold](research/onegold.md), checked on 2026-10-09, combines third-party vaults with a bank-issued debit card that spends metal, and offers no yield. These public descriptions were checked on 2026-10-02; they are not operational tests.
 
 The proposed distinction is therefore **how replaceable providers and operators are, how contributions can be made independently, and whether users depend on one company's roadmap**. Merely using external vaults would not establish a unique advantage.
 

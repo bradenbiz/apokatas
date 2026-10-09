@@ -13,6 +13,17 @@ All capabilities below are claims from that supplied summary. They have not been
 
 The pasted summary did not include reliable source URLs for these capabilities. Do not treat its phrasing as provider documentation or as evidence that an API is available for the intended business model.
 
+## Suppliers seen in a competitor's product
+
+On 2026-10-09, research on [OneGold](onegold.md) identified the companies behind a working metal-spending card. They are observed, not assessed. None was contacted, and whether any of them would serve an independent platform is unknown.
+
+| Company | Role observed | Status |
+| --- | --- | --- |
+| Cross River Bank | Issues the OneGold Mastercard. Announced its own card-processing engine in December 2025 ([newsroom](https://www.crossriver.com/newsroom/cross-river-expands-card-solutions-with-in-house-card-processing-engine-delivering-end-to-end-control)). | Lead: card issuing for metal-backed spending. |
+| MKS PAMP; Manfra, Tordella & Brookes (MKS PAMP group) | Swiss and US vaulting for OneGold. MKS PAMP majority-owns OneGold's parent group, so it is not independent of OneGold. | Lead: custody; independence questions apply. |
+| Royal Canadian Mint | Canadian storage and insurance for OneGold. | Lead: custody. |
+| Brinks, Loomis | Named vault operators in the US, UK and Switzerland. | Lead: custody and logistics. |
+
 ## Questions for later verification
 
 These are proposed research checks, not already-created Wayfinder issues:
